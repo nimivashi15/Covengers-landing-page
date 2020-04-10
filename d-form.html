@@ -103,7 +103,7 @@
     <label for="formGroupExampleInput">Vaccination History</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
     <div class="row">
-        <legend class="col-form-label col-sm-3 pt-0">SUB Group BCG Vaccination</legend>
+        <legend class="col-form-label col-sm-3 pt-0">BCG Vaccination</legend>
         <div class="col-sm-9">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
@@ -218,10 +218,32 @@
   </div><div class="form-group">
     <label for="formGroupExampleInput">Work Email</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-  </div><div class="form-group">
-    <label for="formGroupExampleInput">Medicines prescribed</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-  </div><div class="form-group">
+  </div>
+  <p>Medicines Prescribed:</p>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom03">Drug</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        <!-- Please provide a valid city. -->
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom03">Dosage</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        <!-- Please provide a valid city. -->
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom03">No. of Days</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        <!-- Please provide a valid city. -->
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
     <label for="formGroupExampleInput">Other staff on protocol (if available)</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
   </div>

@@ -2070,6 +2070,10 @@ ul {
   z-index: 999;
 }
 
+.hid {
+  visibility: hidden;
+}
+
 /* line 11, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_menu.scss */
 .main_menu .navbar-brand {
   padding: 0rem !important;

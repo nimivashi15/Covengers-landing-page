@@ -2510,6 +2510,19 @@ ul {
   }
 }
 
+@media screen and (max-width: 40em) {
+  .banner_part:after {
+    position: absolute;
+    top: 180px;
+    width: 80%;
+    height: 67%;
+    content: "";
+    background-image: url(../img/banner_img.png);
+    background-size: 100% 100%;
+    right: 9%;
+  }
+}
+
 @media (max-width: 991px) {
   /* line 129, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_banner.scss */
   .banner_part:after {

@@ -1,0 +1,22 @@
+body {
+  background-image: url('patient.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  width:60%;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 1em;
+  background: rgba(255,255,255,0.9);
+}
+@media screen and (max-width: 40em) {
+  .display-4{
+    font-size: 1.5em;
+  }
+  .container{
+    width: 80%
+  }
+}

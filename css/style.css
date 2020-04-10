@@ -7,6 +7,9 @@ body {
   margin: 0;
   font-size: 14px;
 }
+/* html {
+  width: 100vw;
+} */
 
 /* line 9, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
 .message_submit_form:focus {
@@ -2310,7 +2313,7 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_banner.scss */
 .banner_part {
-  height: 935px;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   background-image: url(../img/banner_bg.png);

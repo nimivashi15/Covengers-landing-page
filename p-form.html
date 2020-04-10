@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- <link rel="stylesheet" href="main.js"> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="main-p.css">
   <title>Covengers</title>
 </head>
 <body>
@@ -16,8 +16,16 @@
       id="bootstrapForm"
       method="POST">
     <fieldset>
-        <h2 class="display-4">Doctor's Entry Form</h2>
-        <p>Fill information about the patient</p>
+        <h2 class="display-4">Patient's Entry Form</h2>
+        <p>Upload Health Record</p>
+        <div class="form-group">
+          <div class="custom-file">
+             <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+             <label class="custom-file-label" for="validatedCustomFile">Upload Health Record</label>
+             <div class="invalid-feedback">invalid custom file feedback</div>
+           </div>
+        </div>
+        <p>Or Fill the form below</p>
     </fieldset>
 
     <form class="needs-validation" novalidate>
@@ -82,6 +90,10 @@
         <!-- Please provide a valid city. -->
       </div>
     </div>
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Travel History</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
   </div>
   <div class="form-row">
     <div class="col-md-6 mb-3">
@@ -190,10 +202,10 @@
       </div>
     </div>
 </fieldset>
-  <div class="form-group">
+  <!-- <div class="form-group">
     <label for="formGroupExampleInput">Other Patient Data</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-  </div>
+  </div> -->
   <p>Other relevant document (if available)</p>
   <div class="form-group">
     <div class="custom-file">
@@ -207,7 +219,7 @@
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
   </div>
   <br>
-  <h6>About Clincian</h6>
+  <!-- <h6>About Clincian</h6>
   <br>
   <div class="form-group">
     <label for="formGroupExampleInput">Name of the clinician</label>
@@ -224,7 +236,7 @@
   </div><div class="form-group">
     <label for="formGroupExampleInput">Other staff on protocol (if available)</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-  </div>
+  </div> -->
 
 
 
